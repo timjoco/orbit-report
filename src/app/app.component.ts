@@ -6,8 +6,10 @@ import { Satellite } from './satellite';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'orbit-report';
+  
   sourceList: Satellite[];
 
   constructor() {
@@ -19,6 +21,6 @@ export class AppComponent {
        new Satellite("ISS", "Space Station", "1998-11-20", "LOW", true),
     ];
  }
- 
+
 }
 
