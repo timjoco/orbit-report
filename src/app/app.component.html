@@ -4,5 +4,5 @@
 
 <div class="search-form">
     <input #searchTerm (keyup.enter)="search(searchTerm.value)">
-    <button (click)="search(searchTerm.value)"></button>
+    <button mat-raised-button (click)="search(searchTerm.value)">Search</button>
 </div>
